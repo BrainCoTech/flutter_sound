@@ -21,7 +21,3 @@ example/android/app/.project
 example/android/app/.settings/org.eclipse.buildship.core.prefs
 example/.flutter-plugins*
 flutter_export_environment*
-
-example/ios/Flutter/.last_build_id
-.last_build_id
-Podfile.lock

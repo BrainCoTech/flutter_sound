@@ -236,6 +236,8 @@ extern void FlautoPlayerReg(NSObject<FlutterPluginRegistrar>* registrar)
 - (void)initializeFlautoPlayer: (FlutterMethodCall*)call result: (FlutterResult)result
 {
         isPaused = false;
+        setCategoryDone = BY_USER;
+        setActiveDone = BY_USER;
         result([NSNumber numberWithBool: YES]);
 }
 
